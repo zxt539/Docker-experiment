@@ -95,7 +95,7 @@
 
 
 
-## 2.
+## 2. 构建镜像
 
 请从ubuntu镜像开始，构建一个新的包含Nginx服务的ubuntu镜像，并修改Nginx主页内容为你的学号，**请分别使用`docker commit` 和 `Dockerfile`两种方式完成，** 并将这个新构建的镜像推送到软院的image registry中。这个镜像推送的地址应该是 `harbor.scs.buaa.edu.cn/<你的学号>/ubuntu-nginx:${TAG}`，其中，使用`docker commit`构建的镜像的`TAG`为`dockercommit`；使用`Dockerfile`构建的镜像的`TAG`为 `dockerfile`。
 
@@ -103,11 +103,11 @@
 
 #### 整体思路
 
-- 云平台上Ubuntu换源失败，换成阿里云镜像源也不行，遂在本机进行试验。基于wsl2安装docker，然后在docker中拉取Ubuntu镜像，创建容器，安装Nginx，修改默认网页html文件内容，最后通过`docker commit`和`dockerfile`两种方法导出镜像。
+- 云平台上Ubuntu换源失败，换成阿里云镜像源也无法执行很多安装指令，遂在本机进行试验。基于wsl2安装docker，然后在docker中拉取Ubuntu镜像，创建容器，安装Nginx，修改默认网页html文件内容，最后通过`docker commit`和`dockerfile`两种方法导出镜像。
 
 #### 具体步骤
 
-##### 1. 拉取Ubuntu镜像，启动容器。换源，这里采用清华镜像源。执行相关初始化命令
+##### 1. 拉取Ubuntu镜像，启动容器。换源，这里采用清华镜像源。执行相关初始化命令。
 
 ![image-20220410222329741](C:\Users\Zhouxt\AppData\Roaming\Typora\typora-user-images\image-20220410222329741.png)
 
@@ -125,13 +125,13 @@
 
 #### Docker commit
 
+- 指令为`docker commit --change='CMD service nginx start ; sleep infinity' b8ff2ee0e2b1 ubuntu_image_by_dockercommit`，并验证结果
 
-
-
+![image-20220411211310441](C:\Users\Zhouxt\AppData\Roaming\Typora\typora-user-images\image-20220411211310441.png)
 
 #### Dockerfile
 
-- 将之前用到的指令编写成Dockerfile，需要注意的是最后要通过`CMD`语句启动nginx并开启一个终端
+- 将之前用到的指令编写成Dockerfile，需要注意的是最后要通过`CMD`语句启动nginx并sleep防止bash进程退出
 
 ```dockerfile
 # Dockerfile
@@ -143,14 +143,21 @@ RUN apt-get install sudo
 RUN sudo apt-get update
 RUN sudo apt install nginx --fix-missing -y
 RUN sudo apt install curl --fix-missing -y
-# edit index.nginx-debian.html
 RUN echo 'Student_id: 18374008' > /var/www/html/index.nginx-debian.html
-CMD service nginx start && bash
+CMD service nginx start ; sleep infinity
 ```
 
 - 生成镜像，并用生成的镜像创建容器，验证效果，如图看到nginx主页显示Student_id: 18374008说明成功了！
 
 ![image-20220410223322016](C:\Users\Zhouxt\AppData\Roaming\Typora\typora-user-images\image-20220410223322016.png)
+
+#### Docker push
+
+- 推送镜像到仓库，要先登录
+
+![image-20220411211822918](C:\Users\Zhouxt\AppData\Roaming\Typora\typora-user-images\image-20220411211822918.png)
+
+
 
 
 

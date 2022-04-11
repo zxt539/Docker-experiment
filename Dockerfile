@@ -8,4 +8,4 @@ RUN sudo apt install nginx --fix-missing -y
 # update index.nginx-debian.html
 RUN sudo apt install curl --fix-missing -y
 RUN echo 'Student_id: 18374008' > /var/www/html/index.nginx-debian.html
-CMD service nginx start && bash
+CMD service nginx start ; sleep infinity
