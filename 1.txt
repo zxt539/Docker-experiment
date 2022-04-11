@@ -1,0 +1,864 @@
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  fontconfig-config fonts-dejavu-core iproute2 libatm1 libbsd0 libcap2 libcap2-bin libelf1 libexpat1 libfontconfig1 libfreetype6 libgd3 libicu66 libjbig0 libjpeg-turbo8 libjpeg8       
+  libmnl0 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream libpam-cap libpng16-16 libssl1.1 libtiff5 libwebp6 libx11-6 libx11-data    
+  libxau6 libxcb1 libxdmcp6 libxml2 libxpm4 libxslt1.1 libxtables12 nginx-common nginx-core tzdata ucf
+Suggested packages:
+  iproute2-doc libgd-tools fcgiwrap nginx-doc ssl-cert
+The following NEW packages will be installed:
+  fontconfig-config fonts-dejavu-core iproute2 libatm1 libbsd0 libcap2 libcap2-bin libelf1 libexpat1 libfontconfig1 libfreetype6 libgd3 libicu66 libjbig0 libjpeg-turbo8 libjpeg8       
+  libmnl0 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream libpam-cap libpng16-16 libssl1.1 libtiff5 libwebp6 libx11-6 libx11-data
+  libxau6 libxcb1 libxdmcp6 libxml2 libxpm4 libxslt1.1 libxtables12 nginx nginx-common nginx-core tzdata ucf
+0 upgraded, 40 newly installed, 0 to remove and 0 not upgraded.
+Need to get 15.8 MB of archives.
+After this operation, 60.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libbsd0 amd64 0.10.0-1 [45.4 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libcap2 amd64 1:2.32-1 [15.9 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libelf1 amd64 0.176-1.1build1 [44.0 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 libmnl0 amd64 1.0.4-2 [12.3 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libxtables12 amd64 1.8.4-3ubuntu2 [28.4 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 libcap2-bin amd64 1:2.32-1 [26.2 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 libcap2-bin amd64 1:2.32-1 [26.2 kB]
+Err:6 http://archive.ubuntu.com/ubuntu focal/main amd64 libcap2-bin amd64 1:2.32-1
+  Hash Sum mismatch
+  Hashes of expected file:
+   - SHA256:113b20090784acc56e687f1c5eacf4025107ff965b23439e6de622d5632b7444
+   - SHA1:f0ad466fb0c38bc459cfd002b7e7471dc891c0c5 [weak]
+   - MD5Sum:f7d9ecdc3f104f8710e9881567868ed1 [weak]
+   - Filesize:26176 [weak]
+  Hashes of received file:
+   - SHA256:9788782675c14e5b8313ad98b204d2f9a2fce5103f3799cb4298de5fd90dfc8e
+   - SHA1:a9f5d1010936ad22330185054c5b05a4b94eab48 [weak]
+   - MD5Sum:af49f35a314304537df6a30939fb145d [weak]
+   - Filesize:26176 [weak]
+  Last modification reported: Mon, 17 Feb 2020 18:08:32 +0000
+Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 iproute2 amd64 5.5.0-1ubuntu1 [858 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 iproute2 amd64 5.5.0-1ubuntu1 [858 kB]
+Err:7 http://archive.ubuntu.com/ubuntu focal/main amd64 iproute2 amd64 5.5.0-1ubuntu1
+  Hash Sum mismatch
+  Hashes of expected file:
+   - SHA256:a85abca744b454f4d2856a5c8e0476f3614dc2881ff09b4f559bff7b41a4d2f8
+   - SHA1:9a3bb1ae35a8a697ce2eca6722f726e737f58437 [weak]
+   - MD5Sum:3005bd6d643da2c119e8b877bd4b0334 [weak]
+   - Filesize:857960 [weak]
+  Hashes of received file:
+   - SHA256:06e5c2d1441531f09736e7ca3484f005649151d2de8b1d694d730b2904170805
+   - SHA1:e6d2f020bb5a034a87152edb87c4b7ee503fef11 [weak]
+   - MD5Sum:b489f62afb0bf2860ccbd7a68b509462 [weak]
+   - Filesize:857960 [weak]
+  Last modification reported: Thu, 13 Feb 2020 18:43:19 +0000
+Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 libatm1 amd64 1:2.5.1-4 [21.8 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1 amd64 2.2.9-1ubuntu0.4 [74.4 kB]
+Ign:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1 amd64 2.2.9-1ubuntu0.4
+Err:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1 amd64 2.2.9-1ubuntu0.4
+  File has unexpected size (10580 != 74440). Mirror sync in progress? [IP: 219.238.82.130 80]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 tzdata all 2022a-0ubuntu0.20.04 [294 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libicu66 amd64 66.1-2ubuntu2.1 [8515 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libpam-cap amd64 1:2.32-1 [8352 B]
+Err:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libpam-cap amd64 1:2.32-1
+  File has unexpected size (575280 != 8352). Mirror sync in progress? [IP: 219.238.82.130 80]
+  Hashes of expected file:
+   - SHA256:a7dcec99a0666a39084a0a99cf6cc55e592f17587b1522d33a1a658fb22da33c
+   - SHA1:d9d19ced3e377ae089d401ad5881a001530e959f [weak]
+   - MD5Sum:db4739ffb060aa9ed908d980d2f470b7 [weak]
+   - Filesize:8352 [weak]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.12 [1322 kB]                  
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2 amd64 2.9.10+dfsg-5ubuntu0.20.04.2 [640 kB]                  
+Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 ucf all 3.0038+nmu1 [51.6 kB]                  
+Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libpng16-16 amd64 1.6.37-2 [179 kB]                  
+Err:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libpng16-16 amd64 1.6.37-2
+  File has unexpected size (114072 != 179076). Mirror sync in progress? [IP: 219.238.82.130 80]
+  Hashes of expected file:
+   - SHA256:6c512b7c67eafe0302026fa719f924bb77b39c57e1845a3d8b81cfd607c3b22c
+   - SHA1:38bdf0a5623a26d73af6324f0c701cc491e2eb48 [weak]
+   - MD5Sum:7edbe750fe15b1384d6c4afcc58675bd [weak]
+   - Filesize:179076 [weak]
+Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libxau6 amd64 1:1.0.9-0ubuntu1 [7488 B]                  
+Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libxdmcp6 amd64 1:1.1.3-0ubuntu1 [10.6 kB]                  
+Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb1 amd64 1.14-2 [44.7 kB]                  
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-data all 2:1.6.9-2ubuntu1.2 [113 kB]                  
+Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-6 amd64 2:1.6.9-2ubuntu1.2 [575 kB]                  
+Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-dejavu-core all 2.37-1 [1041 kB]                  
+Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-dejavu-core all 2.37-1 [1041 kB]                  
+Err:22 http://archive.ubuntu.com/ubuntu focal/main amd64 fonts-dejavu-core all 2.37-1                  
+  Hash Sum mismatch
+  Hashes of expected file:
+   - SHA256:f2b3f7f51e23e0493e8e642c82003fe75cf42bc95fda545cc96b725a69adb515
+   - SHA1:15970026c98abf7a150d20697aa16d10d72740ba [weak]
+   - MD5Sum:be036b423d84ce26700dacdbdcddf7b5 [weak]
+   - Filesize:1040712 [weak]
+  Hashes of received file:
+   - SHA256:9cb256eed1417546a01b6ccf2f00aac375b3e3d1bfd6403b5b0a7f1676ae01bf
+   - SHA1:a82def89f0300d05d90a65a36a84e390c80619a5 [weak]
+   - MD5Sum:0b2458012a43da722b8523a5653b5985 [weak]
+   - Filesize:1040712 [weak]
+  Last modification reported: Wed, 17 Aug 2016 00:21:03 +0000
+Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 fontconfig-config all 2.13.1-2ubuntu3 [28.8 kB]                  
+Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfreetype6 amd64 2.10.1-2ubuntu0.1 [341 kB]                  
+Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 libfontconfig1 amd64 2.13.1-2ubuntu3 [114 kB]                  
+Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libjpeg-turbo8 amd64 2.0.3-0ubuntu1.20.04.1 [117 kB]                  
+Get:27 http://archive.ubuntu.com/ubuntu focal/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]                  
+Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 libjbig0 amd64 2.1-3.1build1 [26.7 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwebp6 amd64 0.6.1-2ubuntu0.20.04.1 [185 kB]                  
+Get:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.2 [162 kB]                  
+Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 libxpm4 amd64 1:3.5.12-1 [34.0 kB]                  
+Get:32 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgd3 amd64 2.2.5-5.2ubuntu2.1 [118 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx-common all 1.18.0-0ubuntu1.2 [37.5 kB]                  
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-http-image-filter amd64 1.18.0-0ubuntu1.2 [14.4 kB]                  
+Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 libxslt1.1 amd64 1.1.34-4 [152 kB]                  
+Get:36 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-http-xslt-filter amd64 1.18.0-0ubuntu1.2 [12.7 kB]                  
+Get:37 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-mail amd64 1.18.0-0ubuntu1.2 [42.5 kB]                  
+Get:38 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnginx-mod-stream amd64 1.18.0-0ubuntu1.2 [67.3 kB]                  
+Get:39 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx-core amd64 1.18.0-0ubuntu1.2 [425 kB]                  
+Get:40 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nginx all 1.18.0-0ubuntu1.2 [3620 B]                  
+Fetched 15.5 MB in 1min 13s (214 kB/s)
+Unable to correct missing packages.
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/libc/libcap2/libcap2-bin_2.32-1_amd64.deb  Hash Sum mismatch
+   Hashes of expected file:
+    - SHA256:113b20090784acc56e687f1c5eacf4025107ff965b23439e6de622d5632b7444
+    - SHA1:f0ad466fb0c38bc459cfd002b7e7471dc891c0c5 [weak]
+    - MD5Sum:f7d9ecdc3f104f8710e9881567868ed1 [weak]
+    - Filesize:26176 [weak]
+   Hashes of received file:
+    - SHA256:9788782675c14e5b8313ad98b204d2f9a2fce5103f3799cb4298de5fd90dfc8e
+    - SHA1:a9f5d1010936ad22330185054c5b05a4b94eab48 [weak]
+    - MD5Sum:af49f35a314304537df6a30939fb145d [weak]
+    - Filesize:26176 [weak]
+   Last modification reported: Mon, 17 Feb 2020 18:08:32 +0000
+E: Failed to fetch http://219.238.82.130/cache/5/01/archive.ubuntu.com/48155fca1d37434ec08f55942eee3d92/iproute2_5.5.0-1ubuntu1_amd64.deb  Hash Sum mismatch
+   Hashes of expected file:
+    - SHA256:a85abca744b454f4d2856a5c8e0476f3614dc2881ff09b4f559bff7b41a4d2f8
+    - SHA1:9a3bb1ae35a8a697ce2eca6722f726e737f58437 [weak]
+    - MD5Sum:3005bd6d643da2c119e8b877bd4b0334 [weak]
+    - Filesize:857960 [weak]
+   Hashes of received file:
+    - SHA256:06e5c2d1441531f09736e7ca3484f005649151d2de8b1d694d730b2904170805
+    - SHA1:e6d2f020bb5a034a87152edb87c4b7ee503fef11 [weak]
+    - MD5Sum:b489f62afb0bf2860ccbd7a68b509462 [weak]
+    - Filesize:857960 [weak]
+   Last modification reported: Thu, 13 Feb 2020 18:43:19 +0000
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/e/expat/libexpat1_2.2.9-1ubuntu0.4_amd64.deb  File has unexpected size (10580 != 74440). Mirror sync in progress? [IP: 219.238.82.130 80]
+E: Failed to fetch http://219.238.82.130/cache/9/01/archive.ubuntu.com/64824813d47a3b36a25a17acbfdaf4ae/libx11-6_1.6.9-2ubuntu1.2_amd64.deb  File has unexpected size (575280 != 8352). Mirror sync in progress? [IP: 219.238.82.130 80]
+   Hashes of expected file:
+    - SHA256:a7dcec99a0666a39084a0a99cf6cc55e592f17587b1522d33a1a658fb22da33c
+    - SHA1:d9d19ced3e377ae089d401ad5881a001530e959f [weak]
+    - MD5Sum:db4739ffb060aa9ed908d980d2f470b7 [weak]
+    - Filesize:8352 [weak]
+E: Failed to fetch http://219.238.82.130/cache/8/01/archive.ubuntu.com/433958343c93a35bd425e62ef9843b01/libfontconfig1_2.13.1-2ubuntu3_amd64.deb  File has unexpected size (114072 != 179076). Mirror sync in progress? [IP: 219.238.82.130 80]
+   Hashes of expected file:
+    - SHA256:6c512b7c67eafe0302026fa719f924bb77b39c57e1845a3d8b81cfd607c3b22c
+    - SHA1:38bdf0a5623a26d73af6324f0c701cc491e2eb48 [weak]
+    - MD5Sum:7edbe750fe15b1384d6c4afcc58675bd [weak]
+    - Filesize:179076 [weak]
+E: Failed to fetch http://219.238.82.130/cache/9/01/archive.ubuntu.com/76a22b9dc40eed2f3ee06e14cd242852/fonts-dejavu-core_2.37-1_all.deb  Hash Sum mismatch
+   Hashes of expected file:
+    - SHA256:f2b3f7f51e23e0493e8e642c82003fe75cf42bc95fda545cc96b725a69adb515
+    - SHA1:15970026c98abf7a150d20697aa16d10d72740ba [weak]
+    - MD5Sum:be036b423d84ce26700dacdbdcddf7b5 [weak]
+    - Filesize:1040712 [weak]
+   Hashes of received file:
+    - SHA256:9cb256eed1417546a01b6ccf2f00aac375b3e3d1bfd6403b5b0a7f1676ae01bf
+    - SHA1:a82def89f0300d05d90a65a36a84e390c80619a5 [weak]
+    - MD5Sum:0b2458012a43da722b8523a5653b5985 [weak]
+    - Filesize:1040712 [weak]
+   Last modification reported: Wed, 17 Aug 2016 00:21:03 +0000
+E: Aborting install.
+root@4f7bb89d8d9e:/# vim
+bash: vim: command not found
+root@4f7bb89d8d9e:/# sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
+root@4f7bb89d8d9e:/# cd etc/apt/
+root@4f7bb89d8d9e:/etc/apt# ls
+apt.conf.d  auth.conf.d  preferences.d  sources.list  sources.list.d  sources.list_backup  trusted.gpg.d
+root@4f7bb89d8d9e:/etc/apt# code sources.list
+bash: code: command not found
+root@4f7bb89d8d9e:/etc/apt# sed -i "s/archive.ubuntu.com/mirrors.aliyun.com/g" /etc/apt/sources.list
+root@4f7bb89d8d9e:/etc/apt# sudo apt-get update
+Get:1 http://mirrors.aliyun.com/ubuntu focal InRelease [265 kB]
+Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+Get:3 http://mirrors.aliyun.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://mirrors.aliyun.com/ubuntu focal-backports InRelease [108 kB]
+Get:5 http://mirrors.aliyun.com/ubuntu focal/main amd64 Packages [1275 kB]
+Get:6 http://mirrors.aliyun.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+Get:7 http://mirrors.aliyun.com/ubuntu focal/restricted amd64 Packages [33.4 kB]                  
+Get:8 http://mirrors.aliyun.com/ubuntu focal/multiverse amd64 Packages [177 kB]                  
+Get:9 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse amd64 Packages [30.3 kB]                  
+Get:10 http://mirrors.aliyun.com/ubuntu focal-updates/universe amd64 Packages [1150 kB]                  
+Get:11 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 Packages [2145 kB]                  
+Get:12 http://mirrors.aliyun.com/ubuntu focal-updates/restricted amd64 Packages [1178 kB]                  
+Get:13 http://mirrors.aliyun.com/ubuntu focal-backports/main amd64 Packages [51.2 kB]                  
+Get:14 http://mirrors.aliyun.com/ubuntu focal-backports/universe amd64 Packages [26.0 kB]                  
+Fetched 17.9 MB in 1min 28s (203 kB/s)                  
+Reading package lists... Done
+root@4f7bb89d8d9e:/etc/apt# sudo apt-get upgrade
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+root@4f7bb89d8d9e:/etc/apt# sudo apt install nginx --fix-missing
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  fontconfig-config fonts-dejavu-core iproute2 libatm1 libbsd0 libcap2 libcap2-bin libelf1 libexpat1 libfontconfig1 libfreetype6 libgd3 libicu66 libjbig0 libjpeg-turbo8 libjpeg8       
+  libmnl0 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream libpam-cap libpng16-16 libssl1.1 libtiff5 libwebp6 libx11-6 libx11-data    
+  libxau6 libxcb1 libxdmcp6 libxml2 libxpm4 libxslt1.1 libxtables12 nginx-common nginx-core tzdata ucf
+Suggested packages:
+  iproute2-doc libgd-tools fcgiwrap nginx-doc ssl-cert
+The following NEW packages will be installed:
+  fontconfig-config fonts-dejavu-core iproute2 libatm1 libbsd0 libcap2 libcap2-bin libelf1 libexpat1 libfontconfig1 libfreetype6 libgd3 libicu66 libjbig0 libjpeg-turbo8 libjpeg8       
+  libmnl0 libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream libpam-cap libpng16-16 libssl1.1 libtiff5 libwebp6 libx11-6 libx11-data    
+  libxau6 libxcb1 libxdmcp6 libxml2 libxpm4 libxslt1.1 libxtables12 nginx nginx-common nginx-core tzdata ucf
+0 upgraded, 40 newly installed, 0 to remove and 0 not upgraded.
+Need to get 15.8 MB of archives.
+After this operation, 60.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://mirrors.aliyun.com/ubuntu focal/main amd64 libbsd0 amd64 0.10.0-1 [45.4 kB]
+Get:2 http://mirrors.aliyun.com/ubuntu focal/main amd64 libcap2 amd64 1:2.32-1 [15.9 kB]
+Get:3 http://mirrors.aliyun.com/ubuntu focal/main amd64 libelf1 amd64 0.176-1.1build1 [44.0 kB]
+Get:4 http://mirrors.aliyun.com/ubuntu focal/main amd64 libmnl0 amd64 1.0.4-2 [12.3 kB]
+Get:6 http://mirrors.aliyun.com/ubuntu focal/main amd64 libcap2-bin amd64 1:2.32-1 [26.2 kB]
+Get:5 http://mirrors.aliyun.com/ubuntu focal/main amd64 libxtables12 amd64 1.8.4-3ubuntu2 [28.4 kB]
+Err:5 http://mirrors.aliyun.com/ubuntu focal/main amd64 libxtables12 amd64 1.8.4-3ubuntu2
+  File has unexpected size (640388 != 28416). Mirror sync in progress? [IP: 219.238.82.130 80]
+  Hashes of expected file:
+   - SHA256:ed9f02b8a4db95eed8a69639ce92c7101ffd7f43234d64e829165b18ada3a9ac
+   - SHA1:cc3589f6a3e31f8e5f4ef20cf547f0abcffe611a [weak]
+   - MD5Sum:0ff065dce4f54ba00aee8b5d9ddc388b [weak]
+   - Filesize:28416 [weak]
+Get:7 http://mirrors.aliyun.com/ubuntu focal/main amd64 iproute2 amd64 5.5.0-1ubuntu1 [858 kB]
+Get:8 http://mirrors.aliyun.com/ubuntu focal/main amd64 libatm1 amd64 1:2.5.1-4 [21.8 kB]
+Get:9 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libexpat1 amd64 2.2.9-1ubuntu0.4 [74.4 kB]
+Get:10 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 tzdata all 2022a-0ubuntu0.20.04 [294 kB]
+Get:11 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libicu66 amd64 66.1-2ubuntu2.1 [8515 kB]
+Get:12 http://mirrors.aliyun.com/ubuntu focal/main amd64 libpam-cap amd64 1:2.32-1 [8352 B]                  
+Get:13 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.12 [1322 kB]                  
+Get:14 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libxml2 amd64 2.9.10+dfsg-5ubuntu0.20.04.2 [640 kB]                  
+Get:15 http://mirrors.aliyun.com/ubuntu focal/main amd64 ucf all 3.0038+nmu1 [51.6 kB]                  
+Get:16 http://mirrors.aliyun.com/ubuntu focal/main amd64 libpng16-16 amd64 1.6.37-2 [179 kB]                  
+Get:17 http://mirrors.aliyun.com/ubuntu focal/main amd64 libxau6 amd64 1:1.0.9-0ubuntu1 [7488 B]                  
+Get:18 http://mirrors.aliyun.com/ubuntu focal/main amd64 libxdmcp6 amd64 1:1.1.3-0ubuntu1 [10.6 kB]                  
+Get:19 http://mirrors.aliyun.com/ubuntu focal/main amd64 libxcb1 amd64 1.14-2 [44.7 kB]                  
+Get:20 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libx11-data all 2:1.6.9-2ubuntu1.2 [113 kB]                  
+Get:21 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libx11-6 amd64 2:1.6.9-2ubuntu1.2 [575 kB]                  
+Get:22 http://mirrors.aliyun.com/ubuntu focal/main amd64 fonts-dejavu-core all 2.37-1 [1041 kB]                  
+Get:23 http://mirrors.aliyun.com/ubuntu focal/main amd64 fontconfig-config all 2.13.1-2ubuntu3 [28.8 kB]                  
+Get:24 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libfreetype6 amd64 2.10.1-2ubuntu0.1 [341 kB]                  
+Get:25 http://mirrors.aliyun.com/ubuntu focal/main amd64 libfontconfig1 amd64 2.13.1-2ubuntu3 [114 kB]                  
+Get:26 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libjpeg-turbo8 amd64 2.0.3-0ubuntu1.20.04.1 [117 kB]                  
+Get:27 http://mirrors.aliyun.com/ubuntu focal/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]                  
+Get:28 http://mirrors.aliyun.com/ubuntu focal/main amd64 libjbig0 amd64 2.1-3.1build1 [26.7 kB]                  
+Get:29 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libwebp6 amd64 0.6.1-2ubuntu0.20.04.1 [185 kB]                  
+Get:30 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libtiff5 amd64 4.1.0+git191117-2ubuntu0.20.04.2 [162 kB]                  
+Get:31 http://mirrors.aliyun.com/ubuntu focal/main amd64 libxpm4 amd64 1:3.5.12-1 [34.0 kB]                  
+Get:32 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libgd3 amd64 2.2.5-5.2ubuntu2.1 [118 kB]                  
+Get:33 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 nginx-common all 1.18.0-0ubuntu1.2 [37.5 kB]                  
+Get:34 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libnginx-mod-http-image-filter amd64 1.18.0-0ubuntu1.2 [14.4 kB]                  
+Get:35 http://mirrors.aliyun.com/ubuntu focal/main amd64 libxslt1.1 amd64 1.1.34-4 [152 kB]                  
+Setting up libnginx-mod-stream (1.18.0-0ubuntu1.2) ...
+Setting up libfreetype6:amd64 (2.10.1-2ubuntu0.1) ...
+Setting up libx11-6:amd64 (2:1.6.9-2ubuntu1.2) ...
+Setting up libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.2) ...
+Setting up libfontconfig1:amd64 (2.13.1-2ubuntu3) ...
+Setting up libxml2:amd64 (2.9.10+dfsg-5ubuntu0.20.04.2) ...
+Setting up libxpm4:amd64 (1:3.5.12-1) ...
+Setting up libgd3:amd64 (2.2.5-5.2ubuntu2.1) ...                  Setting up libxslt1.1:amd64 (1.1.34-4) ...
+Setting up libnginx-mod-http-image-filter (1.18.0-0ubuntu1.2) ...
+Setting up libnginx-mod-http-xslt-filter (1.18.0-0ubuntu1.2) ...
+Setting up nginx-core (1.18.0-0ubuntu1.2) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up nginx (1.18.0-0ubuntu1.2) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.7) ...
+root@4f7bb89d8d9e:/etc/apt#
+root@4f7bb89d8d9e:/etc/apt#
+root@4f7bb89d8d9e:/etc/apt#                  root@4f7bb89d8d9e:/etc/apt# sudo systemctl status nginx
+sudo: systemctl: command not found
+root@4f7bb89d8d9e:/etc/apt# sudo apt-get install --reinstall systemd
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  dbus dmsetup file gir1.2-glib-2.0 libapparmor1 libargon2-1 libcryptsetup12 libdbus-1-3 libdevmapper1.02.1 libgirepository-1.0-1 libglib2.0-0 libglib2.0-data libip4tc2 libjson-c4
+  libkmod2 libmagic-mgc libmagic1 libmpdec2 libpython3-stdlib libpython3.8-minimal libpython3.8-stdlib libreadline8 libsqlite3-0 mime-support networkd-dispatcher python3 python3-dbus
+  python3-gi python3-minimal python3.8 python3.8-minimal readline-common shared-mime-info systemd-timesyncd xdg-user-dirs xz-utils
+Suggested packages:
+  default-dbus-session-bus | dbus-session-bus iw | wireless-tools python3-doc python3-tk python3-venv python-dbus-doc python3-dbus-dbg python3.8-venv python3.8-doc binutils
+  binfmt-support readline-doc systemd-container policykit-1
+The following NEW packages will be installed:
+  dbus dmsetup file gir1.2-glib-2.0 libapparmor1 libargon2-1 libcryptsetup12 libdbus-1-3 libdevmapper1.02.1 libgirepository-1.0-1 libglib2.0-0 libglib2.0-data libip4tc2 libjson-c4
+  libkmod2 libmagic-mgc libmagic1 libmpdec2 libpython3-stdlib libpython3.8-minimal libpython3.8-stdlib libreadline8 libsqlite3-0 mime-support networkd-dispatcher python3 python3-dbus
+  python3-gi python3-minimal python3.8 python3.8-minimal readline-common shared-mime-info systemd systemd-timesyncd xdg-user-dirs xz-utils
+0 upgraded, 37 newly installed, 0 to remove and 0 not upgraded.
+Need to get 13.0 MB of archives.
+After this operation, 56.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libpython3.8-minimal amd64 3.8.10-0ubuntu1~20.04.4 [717 kB]
+Get:2 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 python3.8-minimal amd64 3.8.10-0ubuntu1~20.04.4 [1899 kB]
+Get:3 http://mirrors.aliyun.com/ubuntu focal/main amd64 python3-minimal amd64 3.8.2-0ubuntu2 [23.6 kB]
+Get:4 http://mirrors.aliyun.com/ubuntu focal/main amd64 mime-support all 3.64ubuntu1 [30.6 kB]
+Get:5 http://mirrors.aliyun.com/ubuntu focal/main amd64 libmpdec2 amd64 2.4.2-3 [81.1 kB]                  
+Get:6 http://mirrors.aliyun.com/ubuntu focal/main amd64 readline-common all 8.0-4 [53.5 kB]                  
+Get:7 http://mirrors.aliyun.com/ubuntu focal/main amd64 libreadline8 amd64 8.0-4 [131 kB]                  
+Get:9 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libpython3.8-stdlib amd64 3.8.10-0ubuntu1~20.04.4 [1675 kB]                  
+Get:8 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libsqlite3-0 amd64 3.31.1-4ubuntu0.2 [549 kB]                  
+Ign:8 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libsqlite3-0 amd64 3.31.1-4ubuntu0.2
+Get:8 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libsqlite3-0 amd64 3.31.1-4ubuntu0.2 [549 kB]
+Get:10 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 python3.8 amd64 3.8.10-0ubuntu1~20.04.4 [387 kB]                  
+Get:11 http://mirrors.aliyun.com/ubuntu focal/main amd64 libpython3-stdlib amd64 3.8.2-0ubuntu2 [7068 B]                  
+Get:12 http://mirrors.aliyun.com/ubuntu focal/main amd64 python3 amd64 3.8.2-0ubuntu2 [47.6 kB]                  
+Get:13 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libapparmor1 amd64 2.13.3-7ubuntu5.1 [34.1 kB]                  
+Get:14 http://mirrors.aliyun.com/ubuntu focal/main amd64 libargon2-1 amd64 0~20171227-0.2 [19.2 kB]                  
+Err:14 http://mirrors.aliyun.com/ubuntu focal/main amd64 libargon2-1 amd64 0~20171227-0.2
+  File has unexpected size (151296 != 19208). Mirror sync in progress? [IP: 219.238.82.130 80]
+  Hashes of expected file:
+   - SHA256:dd0c2b89a58400d555df86c58465f95cf6aebec7bdc1e7c96718d25e29a38019
+   - SHA1:bfc002a34537b3ede5a96ea704f5051482b7e495 [weak]
+   - MD5Sum:7c3cde0d0054a3ae79c743f4434171e4 [weak]
+   - Filesize:19208 [weak]
+Get:15 http://mirrors.aliyun.com/ubuntu focal/main amd64 libdevmapper1.02.1 amd64 2:1.02.167-1ubuntu1 [127 kB]                  
+Get:16 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libjson-c4 amd64 0.13.1+dfsg-7ubuntu0.3 [29.3 kB]                  
+Ign:16 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libjson-c4 amd64 0.13.1+dfsg-7ubuntu0.3
+Get:17 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libcryptsetup12 amd64 2:2.2.2-3ubuntu2.4 [166 kB]                  
+Get:16 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libjson-c4 amd64 0.13.1+dfsg-7ubuntu0.3 [29.3 kB]                  
+Get:18 http://mirrors.aliyun.com/ubuntu focal/main amd64 libip4tc2 amd64 1.8.4-3ubuntu2 [18.8 kB]                  
+Get:19 http://mirrors.aliyun.com/ubuntu focal/main amd64 libkmod2 amd64 27-1ubuntu2 [44.3 kB]                  
+Get:20 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 systemd-timesyncd amd64 245.4-4ubuntu3.15 [28.1 kB]                  
+Get:21 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 systemd amd64 245.4-4ubuntu3.15 [3811 kB]                  
+Get:22 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libdbus-1-3 amd64 1.12.16-2ubuntu2.1 [179 kB]                  
+Get:23 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 dbus amd64 1.12.16-2ubuntu2.1 [151 kB]                  
+Get:24 http://mirrors.aliyun.com/ubuntu focal/main amd64 dmsetup amd64 2:1.02.167-1ubuntu1 [75.6 kB]                  
+Get:25 http://mirrors.aliyun.com/ubuntu focal/main amd64 libmagic-mgc amd64 1:5.38-4 [218 kB]                  
+Get:26 http://mirrors.aliyun.com/ubuntu focal/main amd64 libmagic1 amd64 1:5.38-4 [75.9 kB]                  
+Get:27 http://mirrors.aliyun.com/ubuntu focal/main amd64 file amd64 1:5.38-4 [23.3 kB]                  
+Get:28 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libglib2.0-0 amd64 2.64.6-1~ubuntu20.04.4 [1287 kB]                  
+Get:29 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libgirepository-1.0-1 amd64 1.64.1-1~ubuntu20.04.1 [85.7 kB]                  
+Get:30 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 gir1.2-glib-2.0 amd64 1.64.1-1~ubuntu20.04.1 [134 kB]                  
+Get:31 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 libglib2.0-data all 2.64.6-1~ubuntu20.04.4 [6052 B]                  
+Get:32 http://mirrors.aliyun.com/ubuntu focal/main amd64 python3-dbus amd64 1.2.16-1build1 [94.0 kB]                  
+Get:33 http://mirrors.aliyun.com/ubuntu focal/main amd64 python3-gi amd64 3.36.0-1 [165 kB]                  
+Get:34 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 networkd-dispatcher all 2.1-2~ubuntu20.04.1 [14.6 kB]                  
+Get:35 http://mirrors.aliyun.com/ubuntu focal/main amd64 shared-mime-info amd64 1.15-1 [430 kB]                  
+Get:36 http://mirrors.aliyun.com/ubuntu focal/main amd64 xdg-user-dirs amd64 0.17-2ubuntu1 [48.3 kB]                  
+Get:37 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 xz-utils amd64 5.2.4-1ubuntu1 [82.5 kB]                  
+Fetched 12.9 MB in 1min 6s (197 kB/s)                  
+E: Failed to fetch http://219.238.82.130/cache/12/01/mirrors.aliyun.com/6ce31d198c32da9accd3c00b287004f7/dbus_1.12.16-2ubuntu2.1_amd64.deb  File has unexpected size (151296 != 19208). Mirror sync in progress? [IP: 219.238.82.130 80]
+   Hashes of expected file:
+    - SHA256:dd0c2b89a58400d555df86c58465f95cf6aebec7bdc1e7c96718d25e29a38019
+    - SHA1:bfc002a34537b3ede5a96ea704f5051482b7e495 [weak]
+    - MD5Sum:7c3cde0d0054a3ae79c743f4434171e4 [weak]
+    - Filesize:19208 [weak]
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+root@4f7bb89d8d9e:/etc/apt# sudo apt-get install --reinstall systemd
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  dbus dmsetup file gir1.2-glib-2.0 libapparmor1 libargon2-1 libcryptsetup12 libdbus-1-3 libdevmapper1.02.1 libgirepository-1.0-1 libglib2.0-0 libglib2.0-data libip4tc2 libjson-c4     
+  libkmod2 libmagic-mgc libmagic1 libmpdec2 libpython3-stdlib libpython3.8-minimal libpython3.8-stdlib libreadline8 libsqlite3-0 mime-support networkd-dispatcher python3 python3-dbus  
+  python3-gi python3-minimal python3.8 python3.8-minimal readline-common shared-mime-info systemd-timesyncd xdg-user-dirs xz-utils
+Suggested packages:
+  default-dbus-session-bus | dbus-session-bus iw | wireless-tools python3-doc python3-tk python3-venv python-dbus-doc python3-dbus-dbg python3.8-venv python3.8-doc binutils
+  binfmt-support readline-doc systemd-container policykit-1
+The following NEW packages will be installed:
+  dbus dmsetup file gir1.2-glib-2.0 libapparmor1 libargon2-1 libcryptsetup12 libdbus-1-3 libdevmapper1.02.1 libgirepository-1.0-1 libglib2.0-0 libglib2.0-data libip4tc2 libjson-c4     
+  libkmod2 libmagic-mgc libmagic1 libmpdec2 libpython3-stdlib libpython3.8-minimal libpython3.8-stdlib libreadline8 libsqlite3-0 mime-support networkd-dispatcher python3 python3-dbus
+  python3-gi python3-minimal python3.8 python3.8-minimal readline-common shared-mime-info systemd systemd-timesyncd xdg-user-dirs xz-utils
+0 upgraded, 37 newly installed, 0 to remove and 0 not upgraded.
+Need to get 19.2 kB/13.0 MB of archives.
+After this operation, 56.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://mirrors.aliyun.com/ubuntu focal/main amd64 libargon2-1 amd64 0~20171227-0.2 [19.2 kB]
+Fetched 19.2 kB in 0s (139 kB/s)     
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libpython3.8-minimal:amd64.
+(Reading database ... 6928 files and directories currently installed.)
+Preparing to unpack .../libpython3.8-minimal_3.8.10-0ubuntu1~20.04.4_amd64.deb ...
+Unpacking libpython3.8-minimal:amd64 (3.8.10-0ubuntu1~20.04.4) ...
+Selecting previously unselected package python3.8-minimal.
+Preparing to unpack .../python3.8-minimal_3.8.10-0ubuntu1~20.04.4_amd64.deb ...
+Unpacking python3.8-minimal (3.8.10-0ubuntu1~20.04.4) ...
+Setting up libpython3.8-minimal:amd64 (3.8.10-0ubuntu1~20.04.4) ...
+Setting up python3.8-minimal (3.8.10-0ubuntu1~20.04.4) ...
+Selecting previously unselected package python3-minimal.
+(Reading database ... 7211 files and directories currently installed.)
+Preparing to unpack .../0-python3-minimal_3.8.2-0ubuntu2_amd64.deb ...
+Unpacking python3-minimal (3.8.2-0ubuntu2) ...
+Selecting previously unselected package mime-support.
+Preparing to unpack .../1-mime-support_3.64ubuntu1_all.deb ...
+Unpacking mime-support (3.64ubuntu1) ...
+Selecting previously unselected package libmpdec2:amd64.
+Preparing to unpack .../2-libmpdec2_2.4.2-3_amd64.deb ...
+Unpacking libmpdec2:amd64 (2.4.2-3) ...
+Selecting previously unselected package readline-common.
+Preparing to unpack .../3-readline-common_8.0-4_all.deb ...
+Unpacking readline-common (8.0-4) ...
+Selecting previously unselected package libreadline8:amd64.
+Preparing to unpack .../4-libreadline8_8.0-4_amd64.deb ...
+Unpacking libreadline8:amd64 (8.0-4) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../5-libsqlite3-0_3.31.1-4ubuntu0.2_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.31.1-4ubuntu0.2) ...
+Selecting previously unselected package libpython3.8-stdlib:amd64.
+Preparing to unpack .../6-libpython3.8-stdlib_3.8.10-0ubuntu1~20.04.4_amd64.deb ...
+Unpacking libpython3.8-stdlib:amd64 (3.8.10-0ubuntu1~20.04.4) ...
+Selecting previously unselected package python3.8.
+Preparing to unpack .../7-python3.8_3.8.10-0ubuntu1~20.04.4_amd64.deb ...
+Unpacking python3.8 (3.8.10-0ubuntu1~20.04.4) ...
+Selecting previously unselected package libpython3-stdlib:amd64.
+Preparing to unpack .../8-libpython3-stdlib_3.8.2-0ubuntu2_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.8.2-0ubuntu2) ...
+Setting up python3-minimal (3.8.2-0ubuntu2) ...
+Selecting previously unselected package python3.
+(Reading database ... 7641 files and directories currently installed.)
+Preparing to unpack .../00-python3_3.8.2-0ubuntu2_amd64.deb ...
+Unpacking python3 (3.8.2-0ubuntu2) ...
+Selecting previously unselected package libapparmor1:amd64.
+Preparing to unpack .../01-libapparmor1_2.13.3-7ubuntu5.1_amd64.deb ...
+Unpacking libapparmor1:amd64 (2.13.3-7ubuntu5.1) ...
+Selecting previously unselected package libargon2-1:amd64.
+Preparing to unpack .../02-libargon2-1_0~20171227-0.2_amd64.deb ...
+Unpacking libargon2-1:amd64 (0~20171227-0.2) ...
+Selecting previously unselected package libdevmapper1.02.1:amd64.
+Preparing to unpack .../03-libdevmapper1.02.1_2%3a1.02.167-1ubuntu1_amd64.deb ...
+Unpacking libdevmapper1.02.1:amd64 (2:1.02.167-1ubuntu1) ...
+Selecting previously unselected package libjson-c4:amd64.
+Preparing to unpack .../04-libjson-c4_0.13.1+dfsg-7ubuntu0.3_amd64.deb ...
+Unpacking libjson-c4:amd64 (0.13.1+dfsg-7ubuntu0.3) ...
+Selecting previously unselected package libcryptsetup12:amd64.
+Preparing to unpack .../05-libcryptsetup12_2%3a2.2.2-3ubuntu2.4_amd64.deb ...
+Unpacking libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.4) ...
+Selecting previously unselected package libip4tc2:amd64.
+Preparing to unpack .../06-libip4tc2_1.8.4-3ubuntu2_amd64.deb ...
+Unpacking libip4tc2:amd64 (1.8.4-3ubuntu2) ...
+Selecting previously unselected package libkmod2:amd64.
+Preparing to unpack .../07-libkmod2_27-1ubuntu2_amd64.deb ...
+Unpacking libkmod2:amd64 (27-1ubuntu2) ...
+Selecting previously unselected package systemd-timesyncd.
+Preparing to unpack .../08-systemd-timesyncd_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking systemd-timesyncd (245.4-4ubuntu3.15) ...
+Selecting previously unselected package systemd.
+Preparing to unpack .../09-systemd_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking systemd (245.4-4ubuntu3.15) ...
+Selecting previously unselected package libdbus-1-3:amd64.
+Preparing to unpack .../10-libdbus-1-3_1.12.16-2ubuntu2.1_amd64.deb ...
+Unpacking libdbus-1-3:amd64 (1.12.16-2ubuntu2.1) ...
+Selecting previously unselected package dbus.
+Preparing to unpack .../11-dbus_1.12.16-2ubuntu2.1_amd64.deb ...
+Unpacking dbus (1.12.16-2ubuntu2.1) ...
+Selecting previously unselected package dmsetup.
+Preparing to unpack .../12-dmsetup_2%3a1.02.167-1ubuntu1_amd64.deb ...
+Unpacking dmsetup (2:1.02.167-1ubuntu1) ...
+Selecting previously unselected package libmagic-mgc.
+Preparing to unpack .../13-libmagic-mgc_1%3a5.38-4_amd64.deb ...
+Unpacking libmagic-mgc (1:5.38-4) ...
+Selecting previously unselected package libmagic1:amd64.
+Preparing to unpack .../14-libmagic1_1%3a5.38-4_amd64.deb ...
+Unpacking libmagic1:amd64 (1:5.38-4) ...
+Selecting previously unselected package file.
+Preparing to unpack .../15-file_1%3a5.38-4_amd64.deb ...
+Unpacking file (1:5.38-4) ...
+Selecting previously unselected package libglib2.0-0:amd64.
+Preparing to unpack .../16-libglib2.0-0_2.64.6-1~ubuntu20.04.4_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.4) ...
+Selecting previously unselected package libgirepository-1.0-1:amd64.
+Preparing to unpack .../17-libgirepository-1.0-1_1.64.1-1~ubuntu20.04.1_amd64.deb ...
+Unpacking libgirepository-1.0-1:amd64 (1.64.1-1~ubuntu20.04.1) ...
+Selecting previously unselected package gir1.2-glib-2.0:amd64.
+Preparing to unpack .../18-gir1.2-glib-2.0_1.64.1-1~ubuntu20.04.1_amd64.deb ...
+Unpacking gir1.2-glib-2.0:amd64 (1.64.1-1~ubuntu20.04.1) ...
+Selecting previously unselected package libglib2.0-data.
+Preparing to unpack .../19-libglib2.0-data_2.64.6-1~ubuntu20.04.4_all.deb ...
+Unpacking libglib2.0-data (2.64.6-1~ubuntu20.04.4) ...
+Selecting previously unselected package python3-dbus.
+Preparing to unpack .../20-python3-dbus_1.2.16-1build1_amd64.deb ...
+Unpacking python3-dbus (1.2.16-1build1) ...
+Selecting previously unselected package python3-gi.
+Preparing to unpack .../21-python3-gi_3.36.0-1_amd64.deb ...
+Unpacking python3-gi (3.36.0-1) ...
+Selecting previously unselected package networkd-dispatcher.
+Preparing to unpack .../22-networkd-dispatcher_2.1-2~ubuntu20.04.1_all.deb ...
+Unpacking networkd-dispatcher (2.1-2~ubuntu20.04.1) ...
+Selecting previously unselected package shared-mime-info.
+Preparing to unpack .../23-shared-mime-info_1.15-1_amd64.deb ...
+Unpacking shared-mime-info (1.15-1) ...
+Selecting previously unselected package xdg-user-dirs.
+Preparing to unpack .../24-xdg-user-dirs_0.17-2ubuntu1_amd64.deb ...
+Unpacking xdg-user-dirs (0.17-2ubuntu1) ...
+Selecting previously unselected package xz-utils.
+Preparing to unpack .../25-xz-utils_5.2.4-1ubuntu1_amd64.deb ...
+Unpacking xz-utils (5.2.4-1ubuntu1) ...
+Setting up libip4tc2:amd64 (1.8.4-3ubuntu2) ...
+Setting up libapparmor1:amd64 (2.13.3-7ubuntu5.1) ...
+Setting up mime-support (3.64ubuntu1) ...
+Setting up xdg-user-dirs (0.17-2ubuntu1) ...
+Setting up libmagic-mgc (1:5.38-4) ...
+Setting up libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.4) ...
+No schema files found: doing nothing.
+Setting up libargon2-1:amd64 (0~20171227-0.2) ...
+Setting up libsqlite3-0:amd64 (3.31.1-4ubuntu0.2) ...
+Setting up libmagic1:amd64 (1:5.38-4) ...
+Setting up file (1:5.38-4) ...
+Setting up libglib2.0-data (2.64.6-1~ubuntu20.04.4) ...
+Setting up libdbus-1-3:amd64 (1.12.16-2ubuntu2.1) ...
+Setting up dbus (1.12.16-2ubuntu2.1) ...
+Setting up xz-utils (5.2.4-1ubuntu1) ...
+update-alternatives: using /usr/bin/xz to provide /usr/bin/lzma (lzma) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzma.1.gz because associated file /usr/share/man/man1/xz.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/unlzma.1.gz because associated file /usr/share/man/man1/unxz.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzcat.1.gz because associated file /usr/share/man/man1/xzcat.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzmore.1.gz because associated file /usr/share/man/man1/xzmore.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzless.1.gz because associated file /usr/share/man/man1/xzless.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzdiff.1.gz because associated file /usr/share/man/man1/xzdiff.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzcmp.1.gz because associated file /usr/share/man/man1/xzcmp.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzgrep.1.gz because associated file /usr/share/man/man1/xzgrep.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzegrep.1.gz because associated file /usr/share/man/man1/xzegrep.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzfgrep.1.gz because associated file /usr/share/man/man1/xzfgrep.1.gz (of link group lzma) doesn't exist
+Setting up shared-mime-info (1.15-1) ...
+Setting up libdevmapper1.02.1:amd64 (2:1.02.167-1ubuntu1) ...
+Setting up dmsetup (2:1.02.167-1ubuntu1) ...
+Setting up libgirepository-1.0-1:amd64 (1.64.1-1~ubuntu20.04.1) ...
+Setting up libmpdec2:amd64 (2.4.2-3) ...
+Setting up libjson-c4:amd64 (0.13.1+dfsg-7ubuntu0.3) ...
+Setting up readline-common (8.0-4) ...
+Setting up libkmod2:amd64 (27-1ubuntu2) ...
+Setting up libreadline8:amd64 (8.0-4) ...
+Setting up gir1.2-glib-2.0:amd64 (1.64.1-1~ubuntu20.04.1) ...
+Setting up libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.4) ...
+Setting up libpython3.8-stdlib:amd64 (3.8.10-0ubuntu1~20.04.4) ...
+Setting up python3.8 (3.8.10-0ubuntu1~20.04.4) ...
+Setting up libpython3-stdlib:amd64 (3.8.2-0ubuntu2) ...
+Setting up python3 (3.8.2-0ubuntu2) ...
+running python rtupdate hooks for python3.8...
+running python post-rtupdate hooks for python3.8...
+Setting up python3-gi (3.36.0-1) ...
+Setting up python3-dbus (1.2.16-1build1) ...
+Setting up networkd-dispatcher (2.1-2~ubuntu20.04.1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/networkd-dispatcher.service → /lib/systemd/system/networkd-dispatcher.service.
+Setting up systemd (245.4-4ubuntu3.15) ...
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.resolve1.service → /lib/systemd/system/systemd-resolved.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/systemd-resolved.service → /lib/systemd/system/systemd-resolved.service.
+ln: failed to create symbolic link '/etc/resolv.conf': Device or resource busy
+Created symlink /etc/systemd/system/multi-user.target.wants/ondemand.service → /lib/systemd/system/ondemand.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-pstore.service → /lib/systemd/system/systemd-pstore.service.
+Initializing machine ID from D-Bus machine ID.
+Setting up systemd-timesyncd (245.4-4ubuntu3.15) ...
+Created symlink /etc/systemd/system/dbus-org.freedesktop.timesync1.service → /lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /lib/systemd/system/systemd-timesyncd.service.
+Processing triggers for libc-bin (2.31-0ubuntu9.7) ...
+root@4f7bb89d8d9e:/etc/apt# sudo systemctl status nginx
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+root@4f7bb89d8d9e:/etc/apt# sudo apt install nginx --fix-missing
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+nginx is already the newest version (1.18.0-0ubuntu1.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+root@4f7bb89d8d9e:/etc/apt# systemctl status nginx
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+root@4f7bb89d8d9e:/etc/apt# nginx -v
+nginx version: nginx/1.18.0 (Ubuntu)
+root@4f7bb89d8d9e:/etc/apt# service nginx start
+ * Starting nginx nginx                  [ OK ] 
+root@4f7bb89d8d9e:/etc/apt# cd ..
+root@4f7bb89d8d9e:/etc# cd ..
+root@4f7bb89d8d9e:/# ls
+bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@4f7bb89d8d9e:/# cd usr/
+root@4f7bb89d8d9e:/usr# cd local/
+root@4f7bb89d8d9e:/usr/local# ls
+bin  etc  games  include  lib  man  sbin  share  src
+root@4f7bb89d8d9e:/usr/local# where nginx
+bash: where: command not found
+root@4f7bb89d8d9e:/usr/local# find nginx
+find: 'nginx': No such file or directory
+root@4f7bb89d8d9e:/usr/local# ps -ef | grep nginx
+root      2475     1  0 15:40 ?        00:00:00 nginx: master process /usr/sbin/nginx
+www-data  2476  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2477  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2478  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2479  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2481  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2482  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2483  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2484  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2485  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2486  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2487  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2488  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2489  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2490  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2491  2475  0 15:40 ?        00:00:00 nginx: worker process
+www-data  2492  2475  0 15:40 ?        00:00:00 nginx: worker process
+root      2498     1  0 15:43 pts/0    00:00:00 grep --color=auto nginx
+root@4f7bb89d8d9e:/usr/local# find / -name nginx.conf
+/etc/nginx/nginx.conf
+find: '/proc/2476/map_files': Permission denied
+find: '/proc/2477/map_files': Permission denied
+find: '/proc/2478/map_files': Permission denied
+find: '/proc/2479/map_files': Permission denied
+find: '/proc/2481/map_files': Permission denied
+find: '/proc/2482/map_files': Permission denied
+find: '/proc/2483/map_files': Permission denied
+find: '/proc/2484/map_files': Permission denied
+find: '/proc/2485/map_files': Permission denied
+find: '/proc/2486/map_files': Permission denied
+find: '/proc/2487/map_files': Permission denied
+find: '/proc/2488/map_files': Permission denied
+find: '/proc/2489/map_files': Permission denied
+find: '/proc/2490/map_files': Permission denied
+find: '/proc/2491/map_files': Permission denied
+find: '/proc/2492/map_files': Permission denied
+root@4f7bb89d8d9e:/usr/local# cd ..
+root@4f7bb89d8d9e:/usr# cd .
+root@4f7bb89d8d9e:/usr# cd ..
+root@4f7bb89d8d9e:/# cd etc/
+root@4f7bb89d8d9e:/etc# ls
+adduser.conf            dbus-1          environment  host.conf  kernel         logrotate.d    mke2fs.conf          os-release  python3.8  rcS.d        skel         terminfo
+alternatives            debconf.conf    fonts        hostname   ld.so.cache    lsb-release    modules-load.d       pam.conf    rc0.d      resolv.conf  subgid       timezone
+apt                     debian_version  fstab        hosts      ld.so.conf     machine-id     mtab                 pam.d       rc1.d      rmt          subuid       tmpfiles.d
+bash.bashrc             default         gai.conf     init.d     ld.so.conf.d   magic          networkd-dispatcher  passwd      rc2.d      security     sudoers      ucf.conf
+bindresvport.blacklist  deluser.conf    group        inputrc    legal          magic.mime     networks             passwd-     rc3.d      selinux      sudoers.d    ufw
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode                  update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/da/man1/vi.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/de/man1/vi.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/vi.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/it/man1/vi.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ja/man1/vi.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/pl/man1/vi.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ru/man1/vi.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/vi.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/da/man1/view.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/de/man1/view.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/view.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/it/man1/view.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ja/man1/view.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/pl/man1/view.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ru/man1/view.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/view.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/da/man1/ex.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/de/man1/ex.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/ex.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/it/man1/ex.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ja/man1/ex.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/pl/man1/ex.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ru/man1/ex.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/ex.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/da/man1/editor.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group editor) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/de/man1/editor.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group editor) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/editor.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group editor) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/it/man1/editor.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group editor) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ja/man1/editor.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group editor) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/pl/man1/editor.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group editor) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ru/man1/editor.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group editor) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group editor) doesn't exist
+Processing triggers for libc-bin (2.31-0ubuntu9.7) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+root@4f7bb89d8d9e:/etc/nginx# vim
+root@4f7bb89d8d9e:/etc/nginx# ls
+conf.d        fastcgi_params  koi-win     modules-available  nginx.conf    scgi_params      sites-enabled  uwsgi_params
+fastcgi.conf  koi-utf         mime.types  modules-enabled    proxy_params  sites-available  snippets       win-utf
+root@4f7bb89d8d9e:/etc/nginx# vim nginx.conf
+root@4f7bb89d8d9e:/etc/nginx# cd conf.d/
+root@4f7bb89d8d9e:/etc/nginx/conf.d# ls
+root@4f7bb89d8d9e:/etc/nginx/conf.d# cd ..
+root@4f7bb89d8d9e:/etc/nginx# ls
+conf.d        fastcgi_params  koi-win     modules-available  nginx.conf    scgi_params      sites-enabled  uwsgi_params
+fastcgi.conf  koi-utf         mime.types  modules-enabled    proxy_params  sites-available  snippets       win-utf
+root@4f7bb89d8d9e:/etc/nginx# vim nginx.conf
+root@4f7bb89d8d9e:/etc/nginx# cd modules-available/
+root@4f7bb89d8d9e:/etc/nginx/modules-available# ls
+root@4f7bb89d8d9e:/etc/nginx/modules-available# cd ..
+root@4f7bb89d8d9e:/etc/nginx# cd sites-available/
+root@4f7bb89d8d9e:/etc/nginx/sites-available# ls
+default
+root@4f7bb89d8d9e:/etc/nginx/sites-available# cd default 
+bash: cd: default: Not a directory
+root@4f7bb89d8d9e:/etc/nginx/sites-available# cat default 
+##
+# You should look at the following URL's in order to grasp a solid understanding
+# of Nginx configuration files in order to fully unleash the power of Nginx.
+# https://www.nginx.com/resources/wiki/start/
+# https://www.nginx.com/resources/wiki/start/topics/tutorials/config_pitfalls/
+# https://wiki.debian.org/Nginx/DirectoryStructure
+#
+# In most cases, administrators will remove this file from sites-enabled/ and
+# leave it as reference inside of sites-available where it will continue to be
+# updated by the nginx packaging team.
+#
+# This file will automatically load configuration files provided by other
+# applications, such as Drupal or Wordpress. These applications will be made
+# available underneath a path with that package name, such as /drupal8.
+#
+# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
+##
+
+# Default server configuration
+#
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        # SSL configuration
+        #
+        # listen 443 ssl default_server;
+        # listen [::]:443 ssl default_server;
+        #
+        # Note: You should disable gzip for SSL traffic.
+        # See: https://bugs.debian.org/773332
+        #
+        # Read up on ssl_ciphers to ensure a secure configuration.
+        # See: https://bugs.debian.org/765782
+        #
+        # Self signed certs generated by the ssl-cert package
+        # Don't use them in a production server!
+        #
+        # include snippets/snakeoil.conf;
+
+        root /var/www/html;
+
+        # Add index.php to the list if you are using PHP
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                try_files $uri $uri/ =404;
+        }
+
+        # pass PHP scripts to FastCGI server
+        #
+        #location ~ \.php$ {
+        #       include snippets/fastcgi-php.conf;
+        #
+        #       # With php-fpm (or other unix sockets):
+        #       fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+        #       # With php-cgi (or other tcp sockets):
+        #       fastcgi_pass 127.0.0.1:9000;
+        #}
+
+        # deny access to .htaccess files, if Apache's document root
+        # concurs with nginx's one
+        #
+        #location ~ /\.ht {
+        #       deny all;
+        #}
+}
+
+
+# Virtual Host configuration for example.com
+#
+# You can move that to a different file under sites-available/ and symlink that
+# to sites-enabled/ to enable it.
+#
+#server {
+#       listen 80;
+#       listen [::]:80;
+#
+#       server_name example.com;
+#
+#       root /var/www/example.com;
+#       index index.html;
+#
+#       location / {
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+root@4f7bb89d8d9e:/var/www/html# curl 127.0.0.1:80
+bash: curl: command not found
+root@4f7bb89d8d9e:/var/www/html# sudo apt install curl
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates krb5-locales libasn1-8-heimdal libbrotli1 libcurl4 libgssapi-krb5-2 libgssapi3-heimdal libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal
+  libhx509-5-heimdal libk5crypto3 libkeyutils1 libkrb5-26-heimdal libkrb5-3 libkrb5support0 libldap-2.4-2 libldap-common libnghttp2-14 libpsl5 libroken18-heimdal librtmp1 libsasl2-2
+  libsasl2-modules libsasl2-modules-db libssh-4 libwind0-heimdal openssl publicsuffix
+Setting up krb5-locales (1.17-6ubuntu4.1) ...
+Setting up libldap-common (2.4.49+dfsg-2ubuntu1.8) ...
+Setting up libkrb5support0:amd64 (1.17-6ubuntu4.1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build1) ...
+Setting up libk5crypto3:amd64 (1.17-6ubuntu4.1) ...
+Setting up libsasl2-2:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
+Setting up libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libkrb5-3:amd64 (1.17-6ubuntu4.1) ...
+Setting up openssl (1.1.1f-1ubuntu2.12) ...
+Setting up publicsuffix (20200303.0012-1) ...
+Setting up libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up ca-certificates (20210119~20.04.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)                                                      debconf: falling back to frontend: Teletype                                                                        Updating certificates in /etc/ssl/certs...                                                                                          128 added, 0 removed; done.
+<!DOCTYPE html>
+Setting up libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libgssapi-krb5-2:amd64 (1.17-6ubuntu4.1) ...
+Setting up libssh-4:amd64 (0.9.3-2ubuntu2.2) ...
+Setting up libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
+Setting up libldap-2.4-2:amd64 (2.4.49+dfsg-2ubuntu1.8) ...
+Setting up libcurl4:amd64 (7.68.0-1ubuntu2.7) ...
+Setting up curl (7.68.0-1ubuntu2.7) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.7) ...
+Processing triggers for ca-certificates (20210119~20.04.2) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+root@4f7bb89d8d9e:/var/www/html# curl 127.0.0.1:80
+<!DOCTYPE html>                  <html>                                    <head><head><title>Welcome to nginx!</title><style>    body {        width: 35em;        margin: 0 auto;        font-family: Tahoma, Verdana, Arial, sans-serif;    }</style></head><body><h1>Welcome to nginx!</h1><p>If you see this page, the nginx web server is successfully installed andworking. Further configuration is required.</p>
+<p>For online documentation and support please refer to<a href="http://nginx.org/">nginx.org</a>.<br/>Commercial support is available at<a href="http://nginx.com/">nginx.com</a>.</p>
+<p><em>Thank you for using nginx.</em></p></body></html>
+root@4f7bb89d8d9e:/var/www/html# vim index.nginx-debian.html
+root@4f7bb89d8d9e:/var/www/html# curl 127.0.0.1:80
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>My student id is 18374008!</p>
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+root@4f7bb89d8d9e:/var/www/html#
